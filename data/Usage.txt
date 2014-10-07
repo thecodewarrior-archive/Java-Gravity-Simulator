@@ -1,0 +1,21 @@
+Left click to place a particle, hold shift while clicking to place a static particle.
+the menu on the left represents what the mouse wheel will modify
+the selected menu item is white, while the rest are gray
+
+right click near a particle to select it
+middle click and drag to move the viewport
+
+keyboard shortcuts:
+S: invert selected particles static flag
+V: change selected particle's velocity, click or press v again to finalize
+M: move selected particle, click or press g again to finalize
+G: generate structure
+F: freeze the screen
+C: clear all particles
+Backspace: delete selected particle
+Escape: cancel velocity/position editing
+1-9: select menu 1-9
+0: select menu 0
++: speed up time
+-: slow down time **WARNING** this seems to mess everything up if it goes below .25x speed
+Arrow keys: move viewport
