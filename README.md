@@ -30,21 +30,21 @@ If you want to export this as a runnable jar, (this)[http://thecodinguniverse.co
 This doesn't include the .classpath file, because it is platform specific, so here is how to set yours up.
 
 Eclipse:
-1. Right click the project in the Package Explorer
-2. Click on Properties
-3. Select Java Build path
-4. Click Add JARS...
-5. Go to <Project name> -> lib -> jars -> lwjgl.jar
-6. Click Add JARS... again
-7. Go to <Project name> -> lib -> slick.jar
+1.  Right click the project in the Package Explorer
+2.  Click on Properties
+3.  Select Java Build path
+4.  Click Add JARS...
+5.  Go to <Project name> -> lib -> jars -> lwjgl.jar
+6.  Click Add JARS... again
+7.  Go to <Project name> -> lib -> slick.jar
 
 Now we are going to add the natives
-8. Open up the lwjgl.jar entry
-9. Select Native Library Location
-10. Click Edit...
-11. Click Workspace...
-12. Select <Project name> -> lib -> native -> <Your OS>
-13. Click OK until you get out of the Properties window
+8.  Open up the lwjgl.jar entry
+9.  Select Native Library Location
+10.  Click Edit...
+11.  Click Workspace...
+12.  Select <Project name> -> lib -> native -> <Your OS>
+13.  Click OK until you get out of the Properties window
 
 You are done!
 
