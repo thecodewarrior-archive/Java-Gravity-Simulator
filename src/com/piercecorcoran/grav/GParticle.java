@@ -154,8 +154,8 @@ public class GParticle extends Drawable {
 		// don't update a static particle
 		if(isStatic) { return; }
 		// increase the velocity using the applied force
-		vx += (fx/mass) * 1000/delta;// the 1000/delta is in the old code, put here out of desperation
-		vy += (fy/mass) * 1000/delta;//
+		vx += (fx/mass) / delta;// the 1000/delta is in the old code, put here out of desperation
+		vy += (fy/mass) / delta;//
 		lastdelta = delta;
 		px += vx*delta;
 		py += vy*delta;

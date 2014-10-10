@@ -668,10 +668,10 @@ public class GravitySim extends BasicGame {
 		float r = (float) Math.sqrt(rSquared);
 		float force = (float) (gravity * p1.mass * p2.mass)/rSquared;
 		
-		float dxNormalizedScaled = (float) ((dx/r) * force / 1000.0);
-		float dyNormalizedScaled = (float) ((dy/r) * force / 1000.0);
+		float forceX = (float) ((dx/r) * force );
+		float forceY = (float) ((dy/r) * force );
 		
-		float[] ret = {dxNormalizedScaled, dyNormalizedScaled};
+		float[] ret = {forceX, forceY};
 		return ret;
 		
 	}
